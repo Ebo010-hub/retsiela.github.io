@@ -1,0 +1,24 @@
+body {
+
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto+Mono';
+    font-size: 30px;
+}
+
+.footer {
+    border-bottom: 3px;
+    color: white;
+    background-color: #0d447a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
