@@ -19,6 +19,11 @@ h1 {
     font-size: 26px;
 }
 
+aside {
+    float: right;
+    width: 20%;       
+}
+
 .button {
     color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
     .button:hover {
@@ -26,6 +31,10 @@ h1 {
     .button:active {
     background: #144E75; }
 
+.img-thumbnail {
+    resize: horizontal;
+
+}
 
 .footer {
     border-bottom: 3px;
@@ -34,6 +43,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: normal;
-  }
+    margin: 30px;
+}
 
   
