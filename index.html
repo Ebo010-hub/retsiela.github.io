@@ -7,39 +7,43 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Open+Sans+Condensed:wght@300&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/estiles.css">
+  <link rel="stylesheet" type="text/css" href="./css/estilesindex.css">
   <title>Hello World! Soy EstevenGeek el informático</title>
 </head>
-
 <body>
-  <header>
-    <h1>Hello World! Soy EstevenGeek aka Ebo010 el amigo informático bienvenido a mi Portafolio creado con
-      HTML+CSS+JavaScript</h1>
-  </header>
+    <header>
+      <h1>Hello World! Soy EstevenGeek aka Ebo010 el amigo informático bienvenido a mi Portafolio creado con
+        HTML+CSS+JavaScript</h1>
+    </header>
+      <nav>
+        <h2>Opciones</h2>
+         <input id="toggle" type="checkbox" checked>
+         <ul>
+           <li><a href="https://github.com/retsiela">Mi perfil de Github por si quieres visitarlo &#129302;</a></li>
+           <li><a href="https://platzi.com/p/Ebo010/">Mi perfil de Platzi donde estoy estudiando</a></li>
+           <li><a href="./cositasja.html">Cositas de Javascript</a></li>
+           <li><a href="./works.html">Mis trabajos</a></li>
+      </ul>
+    </nav>
+
   <section>
-    <img src="./images/avatarebogoogle.png" alt="El amigo informático te ayuda un monton">
+    <img display:block;
+         margin:auto; src="./images/avatarebogoogle.png" alt="El amigo informático te ayuda un monton">
     <section>
       <aside>
         <blockquote><a href="mailto:eb023024@gmail.com?Subject=Portafolio" target="_top">Conecta conmigo</a>
         </blockquote>
-        <blockquote>*** ¡Conecta Ya! ***</blockquote>
-        <img style=float: right; margin: 2px 0 10px 20px;" src="./images/email.png" alt="icono email" height="50" />
+          <blockquote>*** ¡Conecta Ya! ***</blockquote>
+          <img margin: 2px 0 10px 20px; src="./images/email.png" alt="icono email" height="50" />
         <blockquote>
           <div class=creditsicon>Icono diseñado por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
-            <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+          <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
           </div>
         </blockquote>
       </aside>
     </section>
-    <button class="button" onclick="document.getElementById('datetime').innerHTML = Date()">Click para ver fecha y
-      hora.</button>
-    <p id="datetime"></p>
-
-    <a href="https://github.com/retsiela">Mi perfil de Github por si quieres visitarlo &#129302;</a></div>
-    <br />
-    <a href="https://platzi.com/p/Ebo010/">Mi perfil de Platzi donde hice algun Curso</a></div>
-    <br />
   </section>
+</body>
 
   <footer class="footer">
     <div>
@@ -47,6 +51,4 @@
       <p>Curso de Desarrollo web online 2020 en <img src="images/estevengeek.png" width="200" alt="EstevenGeek"></p>
     </div>
   </footer>
-</body>
-
 </html>

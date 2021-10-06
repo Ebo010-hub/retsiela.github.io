@@ -1,0 +1,17 @@
+body {
+    background: -prefix-linear-gradient(left top, rgb(41, 41, 94), white);
+    background: linear-gradient(to bottom right, #29294d, white);
+  }
+
+  p {
+    border: 5px solid powderblue;
+    padding: 30px;
+    font-size: 27px;
+    border-bottom: 5px;
+    color: white;
+    background-color: #179b2d;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    margin: 40px;
+  }

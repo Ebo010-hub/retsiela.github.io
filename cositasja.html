@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cositas en Javascript</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilesja.css">
+
+</head>
+<body>
+    <header>
+    </header>    
+    <div class="w-33">
+        <div class="center">
+            <button class="button" onclick="document.getElementById('datetime').innerHTML = Date()">Click para ver fecha y
+                hora.</button>
+            <p id="datetime"></p>
+        </div>
+    </div>
+ 
+    <section>
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form>
+          <label for="InputCuadrado">
+            Escribe cuánto mide cada lado de tu cuadrado:
+          </label>
+          <input id="InputCuadrado" type="number" />
+          <button class="button1" type="button" onclick="calcularPerimetroCuadrado()">
+            Calcular el perímetro
+          </button>
+          <div id="cont1"></div>
+          <button class="button2" type="button" onclick="calcularAreaCuadrado()">
+            Calcular el área
+          </button>
+          <div id="cont2"></div>
+        </form>
+    </section>
+    <script src="./cositas.js"></script>
+</body>
+</html>
+
+
+
+
+
+
