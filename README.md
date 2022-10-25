@@ -1,2 +1,2 @@
 # retsiela.github.io
-Portafolio de Esteba en HTML+CSS+JavaScript
+Portafolio de Ebo010 en HTML+CSS+JavaScript
