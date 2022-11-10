@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Navbar</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/backmenu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<i class="fa fa-bars bars-button" aria-hidden="true" id="bars-button"></i>
+	<div class="navbar">
+        <div class="contenido">
+            <nav class="bars">
+                <ul>
+                    <li><a href="./back4app.html">Create User</a></li>
+                    <li><a href="./back4appread.html">Read User</a></li>
+                    <li><a href="#">Update User</a></li>
+                    <li><a href="#">Delete User</a></li>
+                </ul>
+            </nav>
+
+            <div class="title">
+                <a href="#">
+                	<h2>Back4app test</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+    	const limit_size_screen = window.matchMedia('screen and (max-width: 768px)');
+		const bars = document.querySelector('.bars');
+		const barsButton = document.querySelector('#bars-button');
+
+		function validation(event) {
+			if (event.matches) {
+				barsButton.addEventListener('click', hideShow);
+			} else {
+				barsButton.removeEventListener('click', hideShow);
+			}
+		}
+		validation(limit_size_screen);
+
+		function hideShow() {
+			if (bars.classList.contains('is-active')) {
+				bars.classList.remove('is-active');
+			} else {
+				bars.classList.add('is-active');
+			}
+		}
+    </script>
+</body>
+</html>
