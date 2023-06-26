@@ -4,7 +4,7 @@ body {
   }
 
   p {
-    border: 5px solid powderblue;
+    border: 10px solid powderblue;
     padding: 30px;
     font-size: 27px;
     border-bottom: 5px;
@@ -13,5 +13,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: normal;
-    margin: 40px;
+    margin: 60px;
   }
