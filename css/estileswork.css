@@ -1,10 +1,10 @@
 body {
-    background: -prefix-linear-gradient(left top, rgb(41, 41, 94), white);
-    background: linear-gradient(to bottom right, #29294d, white);
+    background: -prefix-linear-gradient(left top);
+    background: linear-gradient(to bottom right);
   }
 
   p {
-    border: 10px solid powderblue;
+    border: 10px solid black;
     padding: 30px;
     font-size: 23px;
     border-bottom: 5px;
